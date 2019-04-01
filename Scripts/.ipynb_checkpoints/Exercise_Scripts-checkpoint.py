@@ -1,3 +1,5 @@
+#!/bin/python 
+
 #Question 1
 #Celsius to Fahrenheit formula
 #(°C × 1.8) + 32 = °F or in plain English, Multiple by 9, then divide by 5, then add 32.
@@ -22,7 +24,7 @@ Weight = int #input weight value in kgs
 
 def Calculate_BMI(Height,Weight):
 """
-Docstring
+Docstring:
 This function calculates the BMI of an individual given the Height in meters and Weight in Kilograms. Calculate_BMI (Height, Weight).
 
 """
@@ -66,6 +68,7 @@ This function checks if an input (x)- is divisible by 3 (Gives output "Fizz") or
 speed = 140
 def Speedfunc(speed): #Speed function that takes in one parameter (speed)
 """
+Docstring:
 This function checks for speed . If speed is below 70 it outputs "Ok". It gives demerit points if speed goes above 70 point and adds a point for every 5km exceeded . If the demerit points are
 above 12 , it outputs "License suspended"
 """
@@ -85,6 +88,7 @@ y = int
 # X and Y declared as integers. Any integer value can be put in.
 def maxfunction(x,y):  
 """
+Docstring:
 Compares two numbers and outputs the one with the greater value
 """
     if x > y: #Comparing value in x to y. If x is greater than y then x is printed as the maximum value
@@ -97,6 +101,7 @@ Compares two numbers and outputs the one with the greater value
 limit =int #Declaring limit as any integer value
 def ShowNumbers(limit):
 """
+Docsting:
 Prints all prime numbers between 0 and a given limit.
 """
     for i in range(limit+1): #Range function to include the number placed in as limit.
@@ -110,6 +115,7 @@ limit = int #Declaring limit as any number as long as it is an integer
 mutiples= [] #Initializing an empty list 
 def Sum_mutiples(limit): 
 """
+Docstring:
 This function sums all the mutiples of 3 and 5 given a certain limit on the inputs
 """
     for i in range (limit+1):
@@ -125,6 +131,7 @@ rows = int #defining rows as a global variable
 
 def show_stars(rows):
 """
+Docstring:
 This functions prints rows of stars if the number in the input function is greater than or equal to 5.
 """
     if rows >= 5: # Condition that only prints stars if the row number entered is greater than or equal to 5.
@@ -141,6 +148,7 @@ primes = [] #Initializing an empty list
 
 def PrimeNo(limit): #Describing a function named PrimeNo that takes one parameter (limit) inside.
 """
+Docstring
 This function sums gives a list of all prime numbers between 0 and a given limit.
 """
     for possiblePrime in range(2, limit): # The range function begins from 2 because there are no prime numbers less than 2. The limit is set by the input the user keys in.
